@@ -1,1 +1,39 @@
 /*JavaScript4-1*/
+.horizontal-line {
+  border-top: 1px solid #000;
+  margin: 20px 0;
+}
+
+/* ジャンルと難易度表示エリア */
+#genreAndDifficulty {
+  margin-bottom: 10px;
+  font-size: 20px; /* 文字の大きさを20pxに調整 */
+  font-weight: bold; /* 太字に設定 */
+}
+
+/* 問題文表示エリア */
+#questionText {
+  margin-bottom: 10px;
+}
+
+/* 回答選択肢表示エリア */
+#answerButtons {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 回答ボタン */
+#answerButtons button {
+  margin-bottom: 5px;
+}
+
+#startButton,
+#homeButton {
+  margin-bottom: 5px;
+  width: 100px; /* 例: 幅を150pxに設定 */
+}
+/* 開始ボタン */
+#homeButton {
+  width: auto;
+  padding: 5px 10px; /* ボタンの内側の余白調整 */
+}
