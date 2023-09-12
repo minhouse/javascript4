@@ -41,7 +41,7 @@ const fetchQuizData = async () => {
 (async () => {
   const quizData = await fetchQuizData();
   // Quizクラスのインスタンス化
-  const quiz = new Quiz();
+  const quiz = new Quiz(quizData);
   // Quizクラスインスタンスのプロパティにクイズデータを渡す
   quiz.quizData = quizData;
 
