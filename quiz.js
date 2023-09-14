@@ -1,9 +1,10 @@
 // Quiz クラス
 class Quiz {
-  constructor() {
+  constructor(quizData) {
     this.currentIndex = 0;
     this.correctAnswers = 0;
-    this.quizData = [];
+    // this.quizData = [];
+    this.quizData = quizData;
   }
 
   // 現在の問題を取得
@@ -43,7 +44,7 @@ const fetchQuizData = async () => {
   // Quizクラスのインスタンス化
   const quiz = new Quiz(quizData);
   // Quizクラスインスタンスのプロパティにクイズデータを渡す
-  quiz.quizData = quizData;
+  // quiz.quizData = quizData;
 
   // QuizApp関数（開始ボタンをクリック後呼び出す処理）
   const startQuiz = () => {
