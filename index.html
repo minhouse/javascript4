@@ -1,9 +1,27 @@
-<!--JavaScript4-1-->
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <h1 id="title">ようこそ</h1>
+    <!-- ジャンルと難易度表示エリア -->
+    <div id="genreAndDifficulty"></div>
+    <!--Line1-->
+    <div class="horizontal-line"></div>
+    <!-- 問題文表示エリア -->
+    <div id="questionText"></div>
+    <!--Line2-->
+    <div class="horizontal-line"></div>
+    <!-- 回答選択肢表示エリア -->
+    <div id="answerButtons"></div>
+    <form>
+      <p></p>
+      <div>
+        <input type="button" value="開始" id="startButton" />
+      </div>
+    </form>
+    <script src="quiz.js"></script>
+  </body>
 </html>
